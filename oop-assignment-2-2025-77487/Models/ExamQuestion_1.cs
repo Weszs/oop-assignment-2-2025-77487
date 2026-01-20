@@ -14,7 +14,9 @@ namespace oop_assignment_2_2025_000000.Models
             Console.WriteLine(IrishMobileValidator("083 1234567"));  // False
             Console.WriteLine(IrishMobileValidator("0812345678"));   // False
 
-            // Question 1B — Discount Calculator
+            // Question 1B — Discount Calculato
+
+            Console.WriteLine("Question 1B Results:");
             Console.WriteLine(Question1B("Gold"));    // 20
             Console.WriteLine(Question1B("Silver"));  // 10
             Console.WriteLine(Question1B("Bronze"));  // 5      
@@ -44,7 +46,7 @@ namespace oop_assignment_2_2025_000000.Models
         }
 
         //
-        //  QUESTION 1B — Discount Calculator
+        //  QUESTION 1B 
         //
         public static int Question1B(string membershipStatus)
         {
@@ -60,7 +62,7 @@ namespace oop_assignment_2_2025_000000.Models
                     return 5;
 
                 default:
-                    return 0;  // None or unknown
+                    return 0;  
             }
         }
     }
